@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="Poratfolio Andrés Saavedra" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Andrés Saavedra</title>
 </head>
@@ -75,24 +75,24 @@
     </div>
   </section>
 
-  <section id="who">
+  <section id="who" class="d-none d-sm-block  d-md-block">
     <div class="container">
       <div class="row mt-5">
         <div class="col">
           <h1 class="title">Quien Soy</h1>
           <h4 class="text-center">Diseñador Front-End</h4>
-          <img src="./assets/images/me.jpg" class="rounded mx-auto d-block image-fliud" alt="Andrés">
+          <img src="./assets/images/me.jpg" class="rounded-circle mx-auto d-block image-fliud" alt="Andrés">
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col-sm-6 col-xs-12">
           <p class="pt-5">Soy diseñador gráfico publicitario de profesión, pero con los años he evolucionado hacia el
             lado web de la
             fuerza. Desde el año 2009 he trabajado en desarrollo y diseño tanto para web y mobile en diferentes empresas
             o de manera freelance, obteniendo mayor experiencia y mejorando mis competencias a nivel profesional. </p>
 
         </div>
-        <div class="col">
+        <div class="col-sm-6 col-xs-12">
           <p class="pt-5">Soy fan del cine, música, fútbol y la tecnología. <br> Creador un desconocido cortometraje de
             terror llamado "Octavo Piso".
 <br>
@@ -105,12 +105,12 @@
   <section id="exp">
     <div class="container">
       <div class="row mt-5"">
-        <div class=" col">
+        <div class="col">
         <h1 class="title">Experiencia</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col-xs-12 col-sm-12 col-md-4 pt-4 py-2">
         <h3 class="exp-title">Acid Labs</h3>
         <h5>Diseñador Front-End / 2012 - 2016</h5>
         <p>Diseñador UI/UX de aplicaciones moviles y web y mi mayor acercamiento al mundo de las StartUp's. Participante
@@ -118,14 +118,14 @@
           trabajar en una de las grandes empresa de desarrollo en Chile, colaborar de manera directa en el diseño y
           desarrollo de apps moviles innovadoras y desarrollos web en lenguaje rails.</p>
       </div>
-      <div class="col">
+      <div class="col-xs-12 col-sm-12 col-md-4 pt-4 py-2">
         <h3 class="exp-title">Rocketbot</h3>
         <h5>Gerente Regional y Co-Founder / 2017 - 2018</h5>
         <p>Co- Fundador de solución RPA con modelo SaaS. </p>
         <p>- Gerente regional establecido en Bogotá y generando ventas comerciales en Perú y Bolivia.</p>
         <p>- Auditor de procesos para integración y desarrollo de bots de automatización.</p>
       </div>
-      <div class="col">
+      <div class="col-xs-12 col-sm-12 col-md-4 px-4 py-2">
         <h3 class="exp-title">Buk</h3>
         <h5>Diseñador Front-End / 2018 - 2019</h5>
         <p>Diseño e implementación de interfaz para plataforma de Recursos humanos sobre Ruby on rails y postgress. <
@@ -137,16 +137,26 @@
   </section>
   <section id="work">
     <div class="container">
-      <div class="row">
+      <div class="row mt-5">
         <div class="col">
           <h1 class="title">Trabajos</h1>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <img src="./assets/images/work/small/11.png" class="img-fluid py-2 mx-auto d-block" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4"> <img src="./assets/images/work/small/17.png" class="img-fluid py-2 mx-auto d-block" alt=""></div>
+          <div class="col-xs-12 col-sm-12 col-md-4"> <img src="./assets/images/work/small/18.png" class="img-fluid py-2 mx-auto d-block" alt=""></div>
+          <div class="col-xs-12 col-sm-12 col-md-4"> <img src="./assets/images/work/small/23.png" class="img-fluid py-2 mx-auto d-block" alt=""></div>
+          <div class="col-xs-12 col-sm-12 col-md-4"> <img src="./assets/images/work/small/24.png" class="img-fluid py-2 mx-auto d-block" alt=""></div>
+          <div class="col-xs-12 col-sm-12 col-md-4"> <img src="./assets/images/work/small/25.png" class="img-fluid py-2 mx-auto d-block" alt=""></div>
         </div>
       </div>
     </div>
   </section>
   <section id="contact">
     <div class="container">
-      <div class="row">
+      <div class="row mt-5">
         <div class="col">
           <h1 class="title">Contacto</h1>
         </div>
@@ -163,6 +173,15 @@
       </div>
     </div>
   </section>
+  <footer>
+    <div class="social-icons">
+      <a href="https://twitter.com/and318" target="new_tab" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/and318" target="new_tab" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
+      <a href="http://instagram.com/and318" target="new_tab" class="btn btn-round btn-clear btn-instagram"><i class="fa fa-instagram"></i></a>
+      <a href="http://www.linkedin.com/pub/andr%C3%A9s-saavedra/23/565/393" target="new_tab" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
+
+    </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
