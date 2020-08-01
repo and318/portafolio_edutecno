@@ -7,6 +7,7 @@
 body {
     font-family: 'Oxygen', sans-serif;
     padding-top: 60px;
+    scroll-behavior: smooth;
 }
 .navbar-brand.logo {
     font-family: var(--t-font);
@@ -20,5 +21,7 @@ body {
     font-family: var(--t-font);
 }
 #exp {
-    background-color: var(--t-font);
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 0;
 }
